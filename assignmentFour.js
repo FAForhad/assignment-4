@@ -13,7 +13,7 @@ function radianToDegree(radian) {
         return degree;
     }
 }
-// console.log(radianToDegree(10))
+console.log(radianToDegree(10))
 
 
 /* -----------------
@@ -32,7 +32,7 @@ function isJavaScriptFile(String) {
         return false; 
     }
 }
-// console.log( isJavaScriptFile('condition.js'));
+console.log( isJavaScriptFile('condition.js'));
 
 
 /* -----------------
@@ -57,7 +57,7 @@ function oilPrice(parameterDiesel, parameterPatrol, parameterOctane) {
         return totalPrice;
     }
 }
-// console.log(oilPrice(1, 0, 2));
+console.log(oilPrice(1, 0, 2));
 
 /* -----------------
 problem -------- 4
@@ -77,7 +77,7 @@ function publicBusFare(people) {
         return totalPublicBusFee;   
     }
 }
-// console.log(publicBusFare(365));
+console.log(publicBusFare(365));
 
 
 /* -----------------  
@@ -96,4 +96,4 @@ function isBestFriend(friend1, friend2) {
             return false;
     }
 }
-// console.log(isBestFriend(object1, object2))
+console.log(isBestFriend(object1, object2))
